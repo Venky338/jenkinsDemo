@@ -6,5 +6,5 @@ WORKDIR /usr/local/tomcat
 COPY /var/lib/jenkins/workspace/Demo_jenkins/webapp/target/webapp.war usr/local/tomcat/webapps/
 # Expose the port on which Tomcat will listen
 EXPOSE 8080
-# Start Tomcat
+# Start Tomcat9
 CMD ["catalina.sh", "run"]
